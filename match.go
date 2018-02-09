@@ -5,11 +5,13 @@ import (
 	"strings"
 )
 
+// Match is a set of matching strings (opening and closing part)
 type Match struct {
 	Open  string
 	Close string
 }
 
+// ValidateForString checks if this Match is valid for a given string
 func (m *Match) ValidateForString(input string) error {
 	// different chars
 	if m.Open != m.Close {
