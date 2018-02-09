@@ -1,6 +1,6 @@
 # matched
 
-A little binary to check if parantheses or quote in a string are balanced.
+A little binary to check if parantheses or quote characters in a string are balanced.
 
 
 ## Usage
