@@ -2,6 +2,9 @@
 
 A little binary to check if parantheses or quote characters in a string are balanced.
 
+[![CircleCI](https://circleci.com/gh/jojomi/matched.svg?style=svg)](https://circleci.com/gh/jojomi/matched)
+[![Coverage Status](https://coveralls.io/repos/github/jojomi/matched/badge.svg?branch=master)](https://coveralls.io/github/jojomi/matched?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jojomi/matched)](https://goreportcard.com/report/github.com/jojomi/matched)
 
 ## Usage
 
