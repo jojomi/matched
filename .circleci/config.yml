@@ -12,7 +12,6 @@ jobs:
       - checkout
       - run: go get -v -t -d ./...
       - run: go test -v ./...
-      - run: ./run-tests.sh
   coverage:
     docker:
       - image: circleci/golang:1.9
